@@ -31,6 +31,7 @@ a,
 nav,
 .nav-links {
   display: flex;
+  background-color: rgb(145, 181, 228);
 }
 
 nav {
@@ -148,13 +149,14 @@ a:hover {
 
 /* SECTIONS */
 
-section {
-  padding-top: 4vh;
+section {padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
+
+
 
 .section-container {
   display: flex;
@@ -317,6 +319,7 @@ section {
 /* skills SECTION */
 
 #skills {
+  margin-bottom: 0;
   position: relative;
 }
 
@@ -423,10 +426,14 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  height: 16vh;
   margin: 0 1rem;
+  margin: 0%;
+  
 }
 
 footer p {
   text-align: center;
+  
+  background-color: rgb(157, 156, 155);
 }
